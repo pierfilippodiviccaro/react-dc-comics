@@ -6,7 +6,7 @@ export default function Header(){
                 <img src="/img/dc-logo.png" alt="" className={`${style.width} ${style.margin}`}  />
                 <div className="links">
                    <nav className="flex gap style none text">
-                    <li> <a href="" className={style.test}>conoscici</a></li>
+                    <li> <a href="">conoscici</a></li>
                     <li><a href="">andiamo al mare </a></li>
                     <li><a href="">controlliamo la spazzatura </a></li>
                     <li><a href="">corallo</a></li>
@@ -19,6 +19,10 @@ export default function Header(){
                    </nav>
                 </div>
             </div>
+            <div className={`${style.flex} ${style.justify} ${style.lol} ${style.align} ${style.background}`}>
+                <h2 className={`${style.color} ${style.size}`}> - - content goes here - -</h2>
+            </div>
         </header>
+    
     )
 }
