@@ -68,5 +68,14 @@
 }
 .background{
     background-image: url('/img/footer-bg.jpg');
-    height: 500px;
+    background-size: cover;
+}
+.between{
+    justify-content: space-between;
+}
+.grandezza3{
+    width: 85%;
+}
+.no-repat{
+    background-repeat: no-repeat;
 }
