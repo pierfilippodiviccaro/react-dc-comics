@@ -1,8 +1,41 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    }
-    .header{
-        display: flex;
-    }
+}
+
+.test {
+    background-color: blue;
+}
+
+.flex {
+    display: flex;
+}
+
+.content {
+    justify-content: space-evenly;
+}
+
+.gap {
+    gap: 10px;
+}
+
+.style {
+    list-style: none;
+    text-decoration: none;
+}
+
+.margin {
+    margin-right: 20px;
+}
+
+.justify{
+    align-items: center;
+}
+.none a{
+    text-decoration: none;
+}
+
+.text{
+    font-size: 20px;
+}

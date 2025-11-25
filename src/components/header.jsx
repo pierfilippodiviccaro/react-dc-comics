@@ -1,12 +1,12 @@
-
-export default function header(){
+import style from './Header.module.css';
+export default function Header(){
     return(
         <header>
-            <div className="header">
-                <img src="/img/dc-logo.png" alt="" />
+            <div className="miao flex content justify">
+                <img src="/img/dc-logo.png" alt="" className={`${style.width} ${style.margin}`}  />
                 <div className="links">
-                   <nav>
-                    <li><a href="">conoscici</a></li>
+                   <nav className="flex gap style none text">
+                    <li> <a href="" className={style.test}>conoscici</a></li>
                     <li><a href="">andiamo al mare </a></li>
                     <li><a href="">controlliamo la spazzatura </a></li>
                     <li><a href="">corallo</a></li>
