@@ -35,7 +35,34 @@
 .none a{
     text-decoration: none;
 }
+.align{
+    justify-content: center ;
+}
 
 .text{
     font-size: 20px;
+}
+.row{
+    flex-direction: row;
+}
+.gap2{
+    gap: 20px;
+}
+.maio{
+    height: 150px;
+}
+.blue{
+    background-color: blue;
+}
+.grandezza{
+    width: 50%;
+}
+.grandezza2{
+    width: 35%;
+}
+.text{
+    text-align: center;
+}
+.top{
+    padding-top: 20px;
 }
