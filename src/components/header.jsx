@@ -1,3 +1,4 @@
+import comics from '../assets/comics'
 import style from './Header.module.css';
 export default function Header(){
     return(
@@ -19,8 +20,20 @@ export default function Header(){
                    </nav>
                 </div>
             </div>
-            <div className={`${style.flex} ${style.justify} ${style.lol} ${style.align} ${style.background}`}>
-                <h2 className={`${style.color} ${style.size}`}> - - content goes here - -</h2>
+            <div className='test'>
+                <div className="flex wrap  gap3 align pad">
+                {comics.map((comic) =>{
+                    return(
+                    <div className="col2 " key={comic.id}>
+                    <img src={comic.thumb} className='img'></img>
+                    <h4 className='color2'>{comic.series}</h4>
+                    </div>
+                    );
+                })}
+                </div>
+                    <div>
+                    <h4 className='color2'>load more</h4>
+                    </div>
             </div>
         </header>
     
