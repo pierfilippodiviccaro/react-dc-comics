@@ -1,5 +1,6 @@
 export default function Footer(){
     return(
+ <footer>
 <div className="background flex between no-repat">
     <div className="">
         <ul><h3>miao</h3>
@@ -15,7 +16,7 @@ export default function Footer(){
         <li></li>
         <li></li>
         </ul>
-        <ul><h3></h3>
+        <ul><h3>cammello</h3>
         <li></li>
         <li></li>
         <li></li>
@@ -26,5 +27,6 @@ export default function Footer(){
         <img src="/img/dc-logo-bg.png" alt="" className="grandezza"/>
     </div>
 </div>
+</footer>
     )
 }
