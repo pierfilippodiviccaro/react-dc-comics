@@ -92,7 +92,7 @@
     gap: 30px;
 }
 .col2{
-    width: calc(100%/14);
+    width: calc(100%/12);
 }
 .pad{
     padding: 70px;

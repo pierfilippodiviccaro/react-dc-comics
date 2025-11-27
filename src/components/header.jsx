@@ -22,7 +22,7 @@ export default function Header() {
                 </div>
             </div>
             <div className='test'>
-                <div className=" flex wrap row ">
+                <div className="flex wrap align">
                     <div className="col2">
                         {comics.map((comic) => {
 
