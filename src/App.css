@@ -92,8 +92,11 @@
     gap: 30px;
 }
 .col2{
-    width: 13%;
+    width: calc(100%/14);
 }
 .pad{
     padding: 70px;
+}
+.row{
+    flex-direction: row;
 }

@@ -3,7 +3,7 @@ export default function Footer(){
  <footer>
 <div className="background flex between no-repat">
     <div className="">
-        <ul><h3>miao</h3>
+        <ul><h3 className="color2">miao</h3>
         <li></li>
         <li></li>
         <li></li>
