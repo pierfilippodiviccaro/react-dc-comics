@@ -92,11 +92,18 @@
     gap: 30px;
 }
 .col2{
-    width: calc(100%/12);
+    width: 14%;
 }
 .pad{
     padding: 70px;
 }
 .row{
     flex-direction: row;
+}
+.col2 img{
+    width: 100%;
+}
+h4{
+    color: white;
+    font-size: 10px;
 }

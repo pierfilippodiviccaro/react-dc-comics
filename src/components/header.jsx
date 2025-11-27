@@ -22,8 +22,7 @@ export default function Header() {
                 </div>
             </div>
             <div className='test'>
-                <div className="flex wrap align">
-                    <div className="col2">
+                <div className="flex wrap align gap pad">
                         {comics.map((comic) => {
 
                             return <ComicsCard
@@ -32,7 +31,6 @@ export default function Header() {
                                 title={comic.series}
                             />
                         })}
-                    </div>
                 </div>
                 <div>
                     <h4 className='color2'>load more</h4>
