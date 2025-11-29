@@ -107,3 +107,22 @@ h4{
     color: white;
     font-size: 20px;
 }
+.ali{
+    margin-bottom: 20px;
+}
+.altro-footer{
+    height: 100px;
+    width: 100%;
+    background-color: #303030;
+    color: white;
+}
+.button{
+ border: 1px solid white;
+ width: 8%;
+ height: 40px;
+ text-align: center;
+ padding: 6px;
+}
+.around{
+    justify-content: space-around;
+}
