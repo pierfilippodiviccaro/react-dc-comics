@@ -29,9 +29,11 @@ export default function Header() {
                                 title={comic.series}
                             />
                         })}
+                <div className='colore flex justify align '>
+                    <div className='button2 flex align justify'>
+                    <h4> load more</h4>                
+                    </div>
                 </div>
-                <div>
-                    <h4 className='color2'>load more</h4>
                 </div>
             </div>
         </header>

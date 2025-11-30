@@ -126,3 +126,20 @@ h4{
 .around{
     justify-content: space-around;
 }
+.colore{
+    width: 100%;
+    height: 70px;
+}
+.button2{
+border: 1px solid rgb(0, 0, 0);
+ width: 20%;
+ height: 70px;
+ background-color: #13528e;
+ padding: 6px;
+ border-radius: 10px;
+ 
+}
+.button2 h4{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

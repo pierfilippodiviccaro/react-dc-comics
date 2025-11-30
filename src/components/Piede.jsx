@@ -3,25 +3,8 @@ export default function Footer(){
     return(
  <footer>
 <div className="background flex between no-repat">
-    <div className="">
-        <ul><h3 className="color2">miao</h3>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        </ul>
-        <ul><h3>sksk</h3>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        </ul>
-        <ul><h3>cammello</h3>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li></ul>
+    <div className="flex ">
+       
     </div>
     
     <div>
